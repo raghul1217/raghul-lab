@@ -32,7 +32,6 @@ public:
         }
 
         percentage = static_cast<float>(totalMarks) / 6;
-        
 
         if (percentage >= 50) {
             result = "Pass";
@@ -70,3 +69,4 @@ int main() {
 
     return 0;
 }
+
